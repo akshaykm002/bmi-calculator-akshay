@@ -1,38 +1,39 @@
-.App {
-  text-align: center;
+.main{
+    background-image: url('https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40545/Geometric_Bg_generated.jpg');
+    
+
+}
+.data-field{
+  
+    background-color:rgba(255, 255, 255, 0.851)
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.data-field:hover{
+    background-color: rgb(202, 254, 243);
+}
+   
+
+.bmi-details{
+    background-color: aquamarine;
+}
+.calculate{
+    width: 200px;
+    height: 40px;
+}
+.calculate:hover{
+    
+    box-shadow: 2px 2px;
+   
+}
+.reload{
+    color: black;
+}
+.bmi-details{
+    background-color: rgba(202, 254, 243, 0.563);
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bmi-details:hover{
+    background-color: rgb(200, 254, 210);
+  
 }
